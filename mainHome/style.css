@@ -1,65 +1,81 @@
-*{
-margin: 0;
-padding: 0
+* {
+    margin: 0;
+    padding: 0
 }
 
-.navBar
-{
+.navBar {
     background-color: aqua;
-    
+
 }
 
 
-.firstNavbar{
+.firstNavbar {
     background-color: red;
     align-items: center;
     display: flex;
-    
-    
+
+
     height: 100px;
 
-    
+
 }
-.navbarTxtArea
-{
+
+.navbarTxtArea {
     display: flex;
+    justify-content: space-between;
     background-color: bisque;
-    margin-left: 30%;
-    
-    width: 50vw;
+    margin-left: 36%;
     height: 60px;
 
 
+
 }
 
 
 
 
-.phoneNo{
+.phoneNo {
     display: flex;
-    flex-direction: column;
-    width: 400px;
     background-color: violet;
+    /* margin-right: 100px; */
+    justify-content: center;
+    align-items: center;
 
-    
+
 }
-.call-Icons{
+
+
+
+.txt {
     display: flex;
-    margin-right: 300px;
-    /* color: red
-     */
-     background-color: aqua;
-
-}
-
-.time
-{
-
-   /* display: flex; */
     flex-direction: column;
 }
 
-.email{
+.time {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    background-color: brown;
+}
+
+.time-txt{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.email {
+    background-color: aquamarine;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+
+}
+
+.email-txt{
     display: flex;
     flex-direction: column;
 
