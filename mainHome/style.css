@@ -1,0 +1,66 @@
+*{
+margin: 0;
+padding: 0
+}
+
+.navBar
+{
+    background-color: aqua;
+    
+}
+
+
+.firstNavbar{
+    background-color: red;
+    align-items: center;
+    display: flex;
+    
+    
+    height: 100px;
+
+    
+}
+.navbarTxtArea
+{
+    display: flex;
+    background-color: bisque;
+    margin-left: 30%;
+    
+    width: 50vw;
+    height: 60px;
+
+
+}
+
+
+
+
+.phoneNo{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    background-color: violet;
+
+    
+}
+.call-Icons{
+    display: flex;
+    margin-right: 300px;
+    /* color: red
+     */
+     background-color: aqua;
+
+}
+
+.time
+{
+
+   /* display: flex; */
+    flex-direction: column;
+}
+
+.email{
+    display: flex;
+    flex-direction: column;
+
+}
