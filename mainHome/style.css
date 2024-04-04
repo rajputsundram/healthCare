@@ -1,16 +1,33 @@
-* {
+ @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>
+
+*{
     margin: 0;
-    padding: 0
+    padding: 0;
 }
 
+body{
+    height: 3000px;
+    margin: 0;
+    padding: 0;
+    
+}
+/*------------------------------------------------------------ Header section----------------------------------------- */
+.logo{
+    margin-left: 20px;
+    /* background-color: blue; */
+
+}
 .navBar {
-    background-color: aqua;
+    /* background-color: aqua; */
+    
+
 
 }
 
 
 .firstNavbar {
-    background-color: red;
+    /* background-color: red; */
+    box-shadow: 0 0 0 1.2px rgb(207, 205, 205);
     align-items: center;
     display: flex;
 
@@ -22,10 +39,10 @@
 
 .navbarTxtArea {
     display: flex;
-    justify-content: space-between;
-    background-color: bisque;
-    margin-left: 36%;
-    height: 60px;
+    /* justify-content: space-between; */
+    /* background-color: bisque; */
+    margin-left: 30%;
+    height: 100px;
 
 
 
@@ -35,48 +52,478 @@
 
 
 .phoneNo {
+    
+    border-bottom: none;
+    margin: 30px;
     display: flex;
-    background-color: violet;
+    /* background-color: violet; */
     /* margin-right: 100px; */
     justify-content: center;
     align-items: center;
-
-
 }
 
-
-
 .txt {
+    
+    margin: 9px;
+    padding: 6px;
     display: flex;
     flex-direction: column;
 }
 
 .time {
-
+    border: 2px solid rgb(204, 204, 201);
+    
+    border-top: none;
+    border-bottom: none;
+    margin: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
     /* flex-direction: column; */
-    background-color: brown;
+    /* background-color: brown; */
 }
 
-.time-txt{
+.time-txt {
+    margin: 9px;
+    padding: 6px;
     display: flex;
     flex-direction: column;
 
 }
 
 .email {
-    background-color: aquamarine;
-    display: flex;
     
+    margin: 30px;
+    /* background-color: aquamarine; */
+    display: flex;
+
     justify-content: center;
     align-items: center;
 
 }
 
-.email-txt{
+.email-txt {
+    margin: 9px;
+    padding: 6px;
     display: flex;
     flex-direction: column;
+
+}
+
+.Icons
+{
+    font-size: 25px;
+    padding: 10px;
+}
+
+
+.secondNavbar{
+    /* background-color: rgb(177, 177, 220); */
+    position:sticky;
+    /* position: -webkit-sticky; */
+    top: 0;
+    /* width: 100vw; */
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+}
+.navlinks{
+    margin-left: 25px;
+}
+.navlinks ul{
+    display: flex;
+}
+
+.navlinks ul li{
+    list-style: none;
+    margin: 17px;
+    padding: 5px;
+}
+
+.navlinks ul li a{
+    text-decoration: none;
+
+}
+
+.icons
+{
+    /* background-color: blueviolet; */
+    margin-right: 50px;
+}
+
+.icons span{
+    font-size: 25px;
+    margin: 12px;
+}
+
+
+/* --------------------------------------------------main section----------------------------------------------------- */
+
+
+.img-sec {
+    height: 90vh;
+    
+    
+
+}
+.images{
+    background: url(https://www.shutterstock.com/image-photo/young-woman-doctor-holding-tablet-260nw-331019402.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+        
+    
+        object-fit: cover;
+        height: 100vh;
+    
+
+    
+}
+
+.emergency-time-opening{
+    z-index: 25;
+    display: flex;
+    height: 200px;
+    /* margin-top: 600px; */
+    /* background: black; */
+    justify-content: center;
+    
+}
+.emergency-time-opening .icons{
+    font-size: 40px;
+    display: flex;
+    margin-top: 40px;
+    margin-left: 30px;
+    /* justify-content: center; */
+    
+
+}
+.emergency-time-opening .heading{
+    /* color: red; */
+    font-size: 30px;
+    font-weight: 600;
+    display: flex;
+    margin-left: 30px;
+    margin-top: 20px;
+
+}
+
+.emergency{
+    background-color: rgb(20, 3, 83);
+    height: 350px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+    
+}
+.emergency a{
+    text-decoration: none;
+    color: white;
+}
+
+.emergency  span{
+    margin-left: 30px;
+    margin: 20px;
+}
+.emergency  .call{
+    font-size: 40px;
+    font-weight: 800;
+    display: flex;
+    /* justify-content: center; */
+    margin-left: 60px;
+    margin-top: 30px;
+} 
+
+.timing{
+    background-color: rgb(112, 100, 227);
+    height: 350px;
+    width: 400px;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+
+}
+.timing a{
+    text-decoration: none;
+    color: white;
+
+}
+.opening
+{
+    background-color: rgb(47, 191, 223);
+    height: 350px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+/* .opening span{
+    display: flex;
+    justify-content: center;
+    margin-top:50%;
+    flex-direction: column;
+    margin-left: 30px;
+    border: 2px solid white;
+    margin: 24px;
+    font-size: 20px;
+    font-weight: 500;
+} */
+.opening .opening-Time{
+    display: flex;
+flex-direction: column;
+margin-left: 30px;
+    /* height: 30px; */
+    
+    
+
+}
+.opening .opening-Time{
+    margin: 30px;
+}
+.opening .opening-Time  div{
+    display: flex;
+    margin: 6px;
+    height: 35px;
+    /* background-color: aqua; */
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid rgba(224, 217, 217, 0.92);
+    border-top: none;
+    border-left:none ;
+    border-right:none ;
+    font-size: 20px;
+}
+.opening .opening-Time .clock-Time{
+
+display: inline-flex;
+justify-content: space-between;
+    width: 100px;
+    /* background-color: rgb(255, 0, 149); */
+}
+
+.opening a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.finestPatient-Section{
+    /* height: 100vh; */
+    /* background-color: aqua; */
+    display: flex;
+    margin-top: 340px;
+
+}
+
+
+.header-txt{
+    /* margin-top: 200px; */
+    margin-left: 190px;
+    font-size: 50px;
+    /* border: 2px solid red; */
+    margin-top: 70px;
+    width: 400px;
+
+}
+.header-txt .gray{
+    color: gray;
+    
+}
+.header-txt .black{
+    font-weight: 700;
+}
+
+
+.finestPatient{
+    height: 450px;
+    
+    /* border: 2px solid red; */
+}
+
+.firstSection{
+    /* height: 200px; */
+    /* border: 2px  solid green; */
+    display: flex;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+.about{
+    /* margin: 5px; */
+    /* margin-top: 30px; */
+    /* padding: 5px; */
+    /* border: 2px solid black; */
+    margin-top: 40px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about li{
+    margin: 6px;
+    font-size: 18px;
+    color: gray;
+    
+    
+}
+
+.finestPatientImg{
+    /* display: flex; */
+    /* border: 2px solid red; */
+    /* height: 300px; */
+    margin-left: 20px;
+
+}
+.finestPatientImg img{
+    height: auto;
+}
+
+.finestPatient{
+    display: flex;
+}
+.box{
+    
+    /* background-color: brown; */
+}
+.learnMoreBtnDiv{
+    /* border: 2px solid red; */
+    height: 40px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    margin-left: 180px;
+    margin-top: 30px;
+    /* background-color: aquamarine; */
+    
+
+}
+.learnMoreBtn{
+    height: 40px;
+    width: 100px;
+    /* margin-right: 10px; */
+    background-color: rgb(47, 191, 223);
+    border: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius:4px;
+
+
+}
+.learnMoreBtn a{
+    text-decoration: none;
+color: white;
+
+}
+.learnMoreBtnDiv span {
+    background-color: rgb(20, 177, 212);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-right: 7px; */
+    height:40px ;
+    width: 40px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius:4px;
+}
+.learnMoreBtnDiv span i{
+    color: white;
+    font-size: 24px;
+}
+
+/* --------------------------------------------------laboratory section------------------------------------------ */
+.bestLabsDiv{
+    margin-top: 63px;
+    border: 2px solid red;
+    height: 450px;
+    display: flex;
+
+
+}
+.bestLabsDiv .firstSection{
+    border: 2px solid red;
+    height: 450px; ;
+    width: 58vw;
+    margin: 0;
+  
+    
+
+}
+.bestLabsDiv .secondSection{
+    display: inline-flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+     
+     color:whitesmoke;
+     background-color: rgb(30, 181, 181);
+}
+
+.bestLabsDiv .secondSection .headerTxt
+{
+    margin-left: 140px;
+    /* background-color: blueviolet; */
+    margin-top: 60px;
+    font-size: 65px;
+}
+
+.bestLabsDiv .secondSection .bodyTxt{
+    margin-left: 140px;
+    width: 70%;
+    
+
+    margin-top: 50px;
+}
+
+.labButtton{
+
+    height: 40px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    margin-left: 140px;
+    margin-top: 30px;
+    /* background-color: aqua; */
+
+
+   
+}
+
+ .labButtton .labBtn{
+    height: 40px;
+    color: red;
+    width: 130px;
+    /* margin-right: 10px;  */
+    /* background-color: rgb(47, 191, 223); */
+    border: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius:4px;
+
+}
+
+.labButtton span{
+    background-color: rgb(210, 206, 206);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-right: 7px; */
+    margin: 0;
+    height:40px ;
+    width:40px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius:4px;
+
+}
+.labButtton .labBtn a{
+    text-decoration: none;
+color: gray;
 
 }
