@@ -6,7 +6,7 @@
 }
 
 body{
-    height: 3000px;
+    /* height: 7000px; */
     margin: 0;
     padding: 0;
     
@@ -168,7 +168,7 @@ body{
 
 }
 .images{
-    background: url(https://www.shutterstock.com/image-photo/young-woman-doctor-holding-tablet-260nw-331019402.jpg);
+    background: url(https://images.pexels.com/photos/305565/pexels-photo-305565.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -441,14 +441,14 @@ color: white;
 /* --------------------------------------------------laboratory section------------------------------------------ */
 .bestLabsDiv{
     margin-top: 63px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 450px;
     display: flex;
 
 
 }
 .bestLabsDiv .firstSection{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 450px; ;
     width: 58vw;
     margin: 0;
@@ -499,7 +499,7 @@ color: white;
 
  .labButtton .labBtn{
     height: 40px;
-    color: red;
+    /* color: red;g */
     width: 130px;
     /* margin-right: 10px;  */
     /* background-color: rgb(47, 191, 223); */
@@ -527,3 +527,606 @@ color: white;
 color: gray;
 
 }
+
+/* -------------------------------------types of clinic------------------------------------------------------- */
+
+.typesOfClinic
+{
+    margin-top: 80px;
+
+    /* display:flex ; */
+    /* border: 2px solid red; */
+    
+}
+
+.typesOfClinic .upperSection{
+    /* border: 2px solid red; */
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.upperSection .upperSecDiv{
+    display: flex;
+    /* background-color: aqua; */
+    /* border: 2px solid red; */
+    margin: 7px;
+    /* width: 400px; */
+    
+}
+
+.upperSecDiv .img img
+{
+    height: 100px;
+    
+}
+
+.upperSecDiv .upperSecTxt{
+    /* background-color: rgb(98, 0, 255); */
+    width: 250px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.upperSecDiv .upperSecTxt .header{
+    font-size: 26px;
+    margin-top: 5px;
+}
+.upperSecDiv .upperSecTxt .clinicTxt{
+    /* background-color: red; */
+
+    color: gray;
+    word-spacing: 1.5px;
+}
+
+
+
+
+.typesOfClinic .lowerSection{
+/* border: 2px solid red; */
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.lowerSection .lowerSecDiv{
+    display: flex;
+    /* background-color: aqua; */
+    /* border: 2px solid red; */
+    margin: 14px;
+    /* width: 400px; */
+    
+}
+
+.lowerSecDiv .img img
+{
+    height: 80px;
+    
+}
+
+.lowerSecDiv .lowerSecTxt{
+    /* background-color: rgb(98, 0, 255); */
+    width: 250px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.lowerSecDiv .lowerSecTxt .header{
+    margin-top: 5px;
+    font-size: 26px;
+}
+.lowerSecDiv .lowerSecTxt .clinicTxt{
+    /* background-color: red; */
+
+    color: gray;
+    word-spacing: 1.5px;
+    /* margin-top: 30px; */
+}
+
+
+.galleryimgDiv{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(240, 234, 234);
+    height: 900px;
+    margin-top: 40px;
+
+}
+
+.headerPartOfGallery{
+    /* background-color: red; */
+    font-weight: 700;
+    width: 40vw;
+    /* margin-left: 30%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    margin-bottom: 100px;
+
+}
+
+.headerPartOfGallery .header{
+    font-size: 45px;
+}
+
+
+.headerPartOfGallery .text{
+    color:gray;
+}
+
+.galleryImgSection1{
+    height: 300px;
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.galleryImgSection1 div img {
+    height: 270px;
+    width: 410px;
+    margin: 15px;
+    transition: .2s ease-in-out;
+
+
+}
+
+.galleryImgSection1 div :hover{
+    transform: scale(1.1);
+}
+
+.galleryImgSection2{
+    height: 300px;
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.galleryImgSection2 div img {
+    height: 270px;
+    width: 410px;
+    margin: 15px;
+    transition: 0.1s ease;
+    
+
+}
+.galleryImgSection2 div :hover{
+    transform: scale(1.1);
+}
+
+
+.aboutSecDiv{
+    height: 400px;
+    background-color:rgb(75, 75, 220);
+    backdrop-filter: transparent;
+
+}
+
+.aboutSecDiv .aboutSecImg{
+    position: relative;
+    height: 400px;
+    
+
+    background: url("https://t3.ftcdn.net/jpg/03/21/23/36/360_F_321233603_JKUNfIr8hPlfLx8OBR9xSAPRsmiIk2Ku.jpg");
+    background-repeat: no-repeat;
+    
+    background-size:cover;
+
+    
+}
+
+.aboutSecImg::after {
+    content: "";
+    background: rgba(69, 22, 237, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* z-index: 1; */
+}
+.aboutSecDiv .aboutSecImg .aboutSecTxt{
+    /* background-color: rgb(1, 141, 201); */
+    
+    
+    
+    height: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutSecDiv .aboutSecImg .aboutSecTxt div{
+    margin: 10px;
+    height: 250px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    font-size: 30px;
+    font-weight: 800;
+    color: rgb(244, 238, 238);
+    z-index: 3;
+
+}
+.aboutSecDiv .aboutSecImg .aboutSecTxt div span{
+    margin: 10px;
+}
+
+
+.medicalPracticeSecDiv{
+    height: 400px;
+    /* background-color: rgb(220, 226, 224); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 20px; */
+}
+.medicalPracticeSecTxt {
+    /* background-color: brown; */
+    display: flex;
+    /* width: 40%; */
+    height: 400px;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+
+}
+
+.medicalPracticeSecTxt .header{
+    /* color: red; */
+    font-size: 50px;
+
+}
+.medicalPracticeSecTxt .header2
+{
+    font-size: 45px;
+    font-weight: 800;
+}
+.medicalPracticeSecTxt .txt{
+    /* color: red; */
+    width: 470px;
+    font-size: large;
+    word-spacing: 1.4%;
+    margin-top: 20px;
+    display: flex;
+    margin-left: 0;
+/* background-color: aqua; */
+}
+
+.medicalPracticeSecGraph{
+    /* width: 50%; */
+    height: 400px;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* margin-left: 100px; */
+    /* align-items: center; */
+
+}
+.medicalPracticeSecGraph .meadicalPracticeSecGraph1{
+    /* background-color: aqua; */
+    margin: 13px;
+    height: 50px;
+}
+.medicalPracticeSecGraph .meadicalPracticeSecGraph1 .txt{
+    display:flex;
+    justify-content: space-between;
+    
+    flex-direction: row;
+    width: 550px;
+    /* background-color: red; */
+    
+/* color: red; */
+}
+
+.medicalPracticeSecGraph .meadicalPracticeSecGraph1 .graph{
+    background-color: rgb(43, 202, 226);
+    height: 6px;
+    width: 550px;
+    border-radius: 6px;
+
+    margin-left: 17px;
+}
+
+.meetOurTeamSection{
+    height: 800px;
+    background-color: rgb(222, 230, 230);
+    border: 2px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.meetOurTeamHeader
+{
+    /* background-color: rgb(15, 17, 17); */
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px;
+    
+}
+.meetOurTeamHeader .headerTxt{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.meetOurTeamHeader .bodyTxt
+{
+    font-size: large;
+}
+
+
+.allDoctors{
+    display: flex;
+    margin-top: 50px;
+    height: 500px;
+    justify-content: center;
+    /* background-color: aquamarine; */
+
+}
+.allDoctors .doctor1
+{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    /* margin: 20px; */
+    /* border: 2px solid red; */
+    /* height: 400px; */
+    width: 310px;
+}
+.allDoctors .doctor1 .img{
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.allDoctors .doctor1 .img img{
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    border-radius: 50%;
+    margin-top: 10px; 
+    object-fit: cover;
+}
+.allDoctors .doctor1 .doctor1Txt
+{
+    align-items: center;
+    margin-top: 15px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+}
+.doctor1 .doctor1Txt .doctorName
+{
+    /* color: red; */
+    font-size: larger;
+    font-weight: 600;
+}
+
+.doctor1 .doctor1Txt .doctorType
+{
+    margin: 10px;
+color: blue;
+}
+.doctor1 .doctor1Txt p{
+display: flex;
+width: 260px;
+text-align-last: center;
+}
+
+.doctor1 .doctor1Icons span{
+    margin: 10px;
+}
+
+.contactUsDiv{ 
+    background-color: rgb(94, 222, 222);
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.contactUsDiv .txt{
+    color:whitesmoke;
+    font-size: 30px;
+}
+
+
+
+.footerMainDiv
+{
+    background-color:rgb(58, 53, 53);
+    display: flex;
+    align-items: center;
+    color: white;
+    height: 600px;
+}
+.footerMainDiv .footerAboutClinic
+{
+    width: 400px;
+    
+    margin-left: 40px;
+    /* background-color: aqua; */
+}
+.footerAboutClinic .mediClinic{
+    font-size: 30px;
+    /* color: red; */
+    /* border: 2px solid red; */
+    font-weight: 800;
+    display: flex;
+    margin-bottom: 25px;
+
+}
+
+.footerMainDiv .contactAndLocation
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    /* background-color: aqua; */
+}
+.footerMainDiv .contactAndLocation span{
+    margin: 8px;
+}
+
+.footerMainDiv .footerSocialMediIcons{
+    margin-top: 20px;
+    height: 100px;
+    width: 200px;
+}
+.footerMainDiv .footerSocialMediIcons span a i
+{
+    background-color: rgb(224, 230, 230);
+    /* margin: 10px; */
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+}
+
+.footerMainDiv .footerLatestNews
+{
+    
+ /* background-color: aqua; */
+ margin-left: 50px;
+}
+.footerLatestNews .heading{
+    /* color: red; */
+    font-size: larger;
+    height: 60px;
+
+}
+
+.footerLatestNews .news{
+    display: flex;
+    margin-top: 30px;
+}
+.footerLatestNews .news .img img{
+    height: 100px;
+}
+.footerLatestNews .news a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.footerLatestNews .news .txt{
+    display: flex;
+    font-size: larger;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footerLatestNews .news .txt .date{
+    display: flex;
+    font-size: medium;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    width: 120px;
+}
+
+.footerMainDiv .followUs
+{
+    /* background-color: aqua; */
+    height: 30px;
+    font-size: larger;
+    /* width: 200px; */
+    margin-left: 100px;
+}
+
+.footerContactUs
+{
+    margin: 10px;
+    margin-left: 60px;
+    
+    height: 300px;
+    /* width: 200px; */
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+}
+.footerContactUs .header{
+    color: rgb(94, 222, 222);
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+
+
+}
+.footerContactUs input{
+    border: none;
+    height: 30px;
+    width: 220px;
+    padding: 8px;
+    outline: none;
+    border-radius: 6px;
+    background-color: rgb(184, 180, 180);
+}
+.footerContactUs textarea{
+    padding: 3px;
+    width: 230px;
+    height:150px ;
+    resize: none;
+    outline: none;
+    border-radius: 4px;
+    background-color: rgb(184, 180, 180);
+    
+}
+
+.footerContactUs .btn{
+    margin-top: 30px;
+
+}
+.footerContactUs .btn button{
+    width: 90px;
+    height: 38px;
+    border-radius: 6px;
+    background-color: rgb(94, 222, 222);
+    color: white;
+
+
+}
+.copyright{
+    color: white;
+    /* font-size: 20px; */
+    display: flex;
+    height: 80px;
+
+justify-content: center;
+align-items: center;
+background-color:rgb(58, 53, 53);
+
+}
+
