@@ -1,3 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* --------------------------------------------------------header css----------------------------------------------- */
+
+#firstNavbarId
+{
+    margin: 0;
+    height: 50px;
+}
+#secondnavbarId
+{
+    display:flex;
+    height: 90px;
+    /* background-color: aqua; */
+    box-shadow: 3px 6px 8px #c8c6c6;
+}
+#secondnavbarId .navlinks
+{
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: space-between;
+    margin-left: 120px;
+    
+}
+#secondnavbarId .navlinks ul{
+     margin-left: 40%; 
+
+}
+#logo{
+    /* color: red; */
+    display: flex;
+    
+    /* background-color: aquamarine; */
+}
+
+
+/*----------------------------------------------------------- main section css ---------------------------------------------------------*/
+
+
 .sneezing_wrapper{
     display: flex;
     justify-content: center;
