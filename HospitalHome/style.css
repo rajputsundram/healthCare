@@ -1,0 +1,547 @@
+.bodyImg {
+    background-color: aqua;
+    height: 600px;
+    box-shadow: 3px 6px 8px #c8c6c6;
+    background-size: cover;
+
+}
+
+.bodyImg img {
+    height: 600px;
+    background-size: cover;
+    object-fit: cover;
+
+}
+
+.secondNavbar {
+    display: flex;
+
+    box-shadow: 3px 6px 8px #c8c6c6;
+}
+
+.secondNavbar ul {
+    margin-left: 10%;
+
+}
+
+.secondNavbar .logo {
+    margin-left: 180px;
+}
+
+.hospitalHomeCareSec {
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: center;
+    align-items: center;
+    height: 470px;
+    background-color: #efecec;
+
+}
+
+.hospitalHomeCareSec .hospitalHomeCareSecDiv {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+
+    height: 300px;
+    width: 410px;
+    margin: 10px;
+    /* background-color: aqua; */
+}
+
+.hospitalHomeCareSec .hospitalHomeCareSecDiv .learnMoreBtnDiv {
+
+    margin-left: 9px;
+}
+
+.hospitalHomeCareSecDiv .heading {
+    color: red;
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 10px;
+
+
+}
+
+
+.laboratoryPlaceDiv {
+    height: 600px;
+    display: flex;
+    /* background-color: aqua; */
+
+}
+
+.laboratoryPlaceDiv .imgPart img {
+    height: 570px;
+    margin-left: 90px;
+    margin-top: 30px;
+}
+
+.laboratoryPlaceDiv .txtPart {
+    /* background-color: rgb(255, 234, 0); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 550px;
+    padding: 10px;
+
+}
+
+.laboratoryPlaceDiv .txtPart .heading1 {
+    color: gray;
+    font-size: 50px;
+}
+
+.laboratoryPlaceDiv .txtPart .heading2 {
+    color: rgb(47, 45, 45);
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.laboratoryPlaceDiv .txtPart .text1 {
+    width: 70%;
+    margin-top: 10px;
+
+
+}
+
+.laboratoryPlaceDiv .txtPart .text2 {
+    width: 70%;
+    margin-top: 30px;
+
+
+}
+
+.positiveFeddbackAboutHospitalDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #efecec;
+    height: 500px;
+    margin-top: 0;
+}
+
+.positiveFeddbackAboutHospitalDiv div {
+    height: 400px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    /* background-color: blue; */
+    margin: 13px;
+}
+
+
+.positiveFeddbackAboutHospitalDiv div .images {
+    height: 100px;
+    background-image: none;
+}
+
+.positiveFeddbackAboutHospitalDiv div .images img {
+
+    height: 80px;
+}
+
+.positiveFeddbackAboutHospitalDiv div .number {
+
+    display: flex;
+    font-size: 28px;
+
+
+}
+
+.positiveFeddbackAboutHospitalDiv div .heading {
+    font-size: 25px;
+    margin: 13px;
+
+}
+
+.positiveFeddbackAboutHospitalDiv div .text {
+    display: flex;
+    text-align-last: center;
+    width: 240px;
+
+}
+
+.multipleImgSecDiv {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#resize {
+    margin: 10px;
+
+}
+
+
+.AboutmedicalPracticeSec {
+    display: flex;
+    height: 510px;
+    justify-content: center;
+    /* align-items: center; */
+
+}
+
+.aboutmedicalPracticeDiv {
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    height: 400px;
+    width: 600px;
+    /* background-color: aqua; */
+    margin: 30px;
+}
+
+#learnMoreBtnDivResize {
+    margin-left: 110px;
+    margin-top: 10px;
+
+}
+
+#txtPartResize {
+    margin-left: 100px;
+    margin-top: 20px;
+    height: 280px;
+    /* background-color: antiquewhite; */
+
+}
+
+.healthNutrentsVitamins {
+    /* background-color: aqua; */
+    width: 700px;
+    height: 300px;
+    margin-top: 80px;
+    /* margin: 30px; */
+
+}
+
+.healthNutrentsVitamins div {
+    width: 570px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #efecec;
+    height: 45px;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.healthNutrentsVitamins div span {
+    padding: 10px;
+
+}
+
+.ourNewsSecDiv {
+    position: relative;
+    background-color: #f7f3f3;
+    height: 800px;
+
+
+}
+
+.ourNewsSecDiv .header {
+    /* background-color: rgb(168, 179, 179); */
+    /* background-color: beige; */
+
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.ourNewsSecDiv .header .topHeader {
+    margin: 15px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.ourNewsSecDiv .header .txt {
+    font-size: large;
+    margin: 0;
+}
+
+
+
+.ourNewsSecDiv .newsLowerSec {
+    display: flex;
+    /* background-color: aqua; */
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    height: 600px;
+
+}
+
+.newsLowerSec .newsAllImages {
+    /* background-color: red; */
+    width: 400px;
+    margin: 30px;
+    height: 500px;
+}
+
+.newsLowerSec .newsAllImages .newIimg {
+    height: 200px;
+    /* background-color: beige; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.newsLowerSec .newsAllImages .newIimg img {
+
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+    object-fit: cover;
+
+}
+
+.newsLowerSec .newsAllImages .smallTxt {
+    display: inline-flex;
+    margin-top: 34px;
+    font-size: small;
+    color: blue;
+    /* background-color: blue; */
+}
+
+.newsAllImages .txt {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+
+}
+
+.newsAllImages .txt .heading {
+    display: flex;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 8px;
+    margin-bottom: 15px;
+
+
+    /* background-color: beige; */
+
+}
+
+.newsLowerSec .newsAllImages .learnMoreAndIcons {
+    /* color: red; */
+    border: 1px solid rgb(187, 183, 183);
+    display: flex;
+    margin-top: 20px;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+
+.someRandomDoctorsSecDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    background-color: rgb(61, 61, 223);
+
+}
+
+.hospiatlHomeContactUsDiv {
+    height: 600px;
+    /* background-color: aqua; */
+
+
+}
+
+.hospiatlHomeContactUsUpperSec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+
+
+}
+.hospiatlHomeContactUsUpperSec .txt{
+
+font-size: 19px;
+margin: 0;
+}
+.hospiatlHomeContactUsUpperSec   .headingOfCnotactUs{
+    font-size: 36px;
+    margin: 20px;
+    font-weight: 600;
+
+}
+
+
+.hospiatlHomeContactUsLowererSec {
+    display: flex;
+    /* background-color: aqua; */
+    /* border: 2px solid red; */
+
+}
+
+.hospiatlHomeContactUsLowererSec .ContactUsLowererSecDiv {
+    /* border: 2px solid black; */
+    /* height: 600px; */
+    width: 40%;
+    display: inline-block;
+    margin-left: 100px;
+    text-align: center;
+    margin-top: 20px;
+
+
+
+
+}
+
+.ContactUsLowererSecDiv .contactUsLocation {
+
+    /* border: 2px solid yellow; */
+    /* height: 240px; */
+    width: 270px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.contactUsLocation .headerTxt
+{
+    font-size: 23px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    
+    
+}
+.ContactUsLowererSecDiv .contactUsLocation span{
+    display: flex;
+    text-align-last: start;
+    margin:0 ;
+    padding: 0;
+
+    
+
+}
+.ContactUsLowererSecDiv .contactUsLocation .txt{
+margin-top: 8px;
+/* width: 210px; */
+display: flex;
+text-align: start;
+font-size: 17px;
+text-align-last: start;
+/* background-color: #efecec; */
+color: gray;
+
+}
+.contactUsNameEmailSection{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+
+}
+.contactUsNameEmailSection .contactUsNameEmailSection2{
+  display: flex;
+justify-content: flex-start;
+flex-direction: column;
+}
+
+.contactUsNameEmailSection2 input{
+    width: 450px;
+    height: 35px;
+    margin-top: 20px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    padding: 8px;
+    background-color:rgb(244, 241, 241);
+}
+
+.contactUsNameEmailSection2 textarea{
+    margin-top: 20px;
+    padding: 10px;
+    width: 450px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background-color:rgb(244, 241, 241);
+    resize: none;
+
+}
+#contactUsNameEmailSectionId
+{
+    margin-left: 5px;
+}
+
+
+.hospitalHomeMapSecDiv{
+    height: 400px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .ContactUsLowererSecDiv{
+
+    background-color: aqua;
+        width: 50%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    
+    
+
+}
+
+.ContactUsLowererSecDiv {
+    background-color: aqua;
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+   
+
+}
+
+.ContactUsLowererSecDiv .contactUsLocation{
+    width: 50%;
+    margin: 15px;
+    height: 280px;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    border: 2px solid black;
+
+
+} */

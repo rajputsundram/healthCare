@@ -1,0 +1,112 @@
+
+
+.dentistBodyImg{
+    height: 600px;
+    background-color: aqua;
+
+}
+
+.facilitiesAbouDentist{
+    height: 700px;
+    /* background-color: blueviolet; */
+    display: flex;
+    /* border: 2px solid black; */
+    justify-content: center;
+    align-items: center;
+
+}
+.facilitiesAbouDentist .allDentistry{
+height: 500px;
+width: 370px;
+display: inline-flex;
+flex-direction: column;
+/* background-color: aqua; */
+/* border: 2px solid black; */
+margin: 30px;
+
+}
+
+.allDentistry .img
+{
+    /* display: inline-block; */
+    height: 200px;
+}
+
+.allDentistry .img img{
+    height: 210px;
+    width: 370px;
+
+}
+
+.allDentistry .heading{
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 40px;
+}
+.allDentistry .txt{
+    color: gray;
+    font-size: 17px;
+    display: inline-flex;
+    margin-left: 0;
+    padding-left: 0;
+    /* text-align: start; */
+
+    
+}
+.allDentistry .linkBtn{
+    margin-top: 15px;
+
+}
+.allDentistry .linkBtn a{
+    text-decoration: none;
+color: black;
+}
+
+
+.ourServicesDiv{
+    height: 500px;
+  
+
+}
+
+.ourServicesDivheader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    flex-direction: column;
+
+}
+.ourServicesDiv .heading{
+    /* margin: 0; */
+    font-size:35px;
+    font-weight: 700;
+
+
+}
+
+.ourServicesAllDivIcons {
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+align-items: center;
+margin-top: 40px;
+    
+ 
+
+}
+
+
+.ourServicesAllDivIcons .icon{
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+}
+
+.ourServicesAllDivIcons .icon img{
+    height: 40px;
+}

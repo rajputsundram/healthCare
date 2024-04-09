@@ -164,3 +164,108 @@
     padding-right: 250px;
 
 }
+
+.ill_child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+.ill_child_text{
+    display: flex;
+    flex-direction: column;
+    
+}
+.ill_child_span{
+    color:#333333;
+    font-size: 50px;
+    font-weight: 300;
+    text-align: start;
+    margin-left: 30px;
+}
+.ill_child_heading{
+    color:#333333;
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: start;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+.ill_child_para{
+    height: 130px;
+    width: 570px;
+    margin-top: 50px;
+    margin-left: 30px;
+    color: #6e6e6e;
+    font-family: "Open Sans",sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-indent: 0px;
+}
+.ill_child_icons{
+    width: 300px;
+    height: 70px;
+    margin-left: 30px;
+}
+.contact_details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 400px;
+    margin-bottom: 200px;
+}
+.contact_details_heading6{
+    color: #4e6dcc;
+    font-size: 12px;
+    font-family: Poppins,sans-serif;
+    font-weight: 500;
+    text-align: center;
+}
+.contact_details_heading2{
+    color:#333333;
+    font-size: 50px;
+    font-family: Poppins,sans-serif;
+    font-weight: 500;
+    text-align: center;
+}
+.contact_details_heading5{
+    color:#333333;
+    font-size: 17px;
+    font-weight: 500;
+    text-align: center;
+    font-family: Poppins,sans-serif;
+}
+.brushing_teeth{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.brush_child_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+    
+}
+.brush_child_span{
+    color:#333333;
+    font-size: 50px;
+    font-weight: 300;
+    text-align: start;
+    margin-left: 30px;
+}
+.brush_child_heading{
+    color:#333333;
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: start;
+    margin-top: 15px;
+    margin-left: 30px;
+}
