@@ -162,23 +162,36 @@ body{
 
 
 .img-sec {
-    height: 90vh;
+    height: 80vh;
     
     
 
 }
-.images{
-    background: url(https://images.pexels.com/photos/305565/pexels-photo-305565.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-        
-    
-        object-fit: cover;
-        height: 100vh;
+.allImg{
+    height: 100vh;
+    width: 100%;
+    background-color: aqua;
+    text-align: center;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    z-index: -1;
     
 
-    
+}
+
+.allImg .slide img{
+    height:100%;
+    width:100% ;
+    background-size: cover;
+    object-fit: cover;
+}
+.allImg .slide{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition: 1s;
+
 }
 
 .emergency-time-opening{

@@ -1,13 +1,7 @@
 
-
-.dentistBodyImg{
-    height: 600px;
-    background-color: aqua;
-
-}
-
 .facilitiesAbouDentist{
-    height: 700px;
+    margin-top: 200px;
+    height: 600px;
     /* background-color: blueviolet; */
     display: flex;
     /* border: 2px solid black; */
@@ -64,33 +58,42 @@ color: black;
 
 
 .ourServicesDiv{
-    height: 500px;
+    background-color:rgb(244, 241, 241);
+    
   
 
 }
 
 .ourServicesDivheader {
+
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 80px;
+    height: 200px;
     flex-direction: column;
+    
 
+}
+.ourServicesDivheader .txt{
+    font-size: 20px;
+    margin: 0;
 }
 .ourServicesDiv .heading{
     /* margin: 0; */
     font-size:35px;
+    margin: 30px;
     font-weight: 700;
 
 
 }
 
 .ourServicesAllDivIcons {
-    background-color: aqua;
+    /* background-color: aqua; */
+
     display: flex;
     justify-content: center;
 align-items: center;
-margin-top: 40px;
+margin-top: 100px;
     
  
 
@@ -98,15 +101,262 @@ margin-top: 40px;
 
 
 .ourServicesAllDivIcons .icon{
-    background-color: red;
+    /* background-color: red; */
     display: flex;
     flex-direction: column;
-  margin: 20px;
+    
+  margin: 40px;
   justify-content: center;
   align-items: center;
-  height: 80px;
+  height: 150px;
 }
 
 .ourServicesAllDivIcons .icon img{
-    height: 40px;
+    height: 60px;
+}
+
+.lowerText
+{
+    /* background-color: aqua; */
+    margin: 25px;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.anAttractiveSmileDiv{
+    
+    background-color:rgb(244, 241, 241);
+    height: 500px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+.anAttractiveSmileDiv .imgSection
+{
+    width: 40%;
+    /* background-color: green; */
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+.anAttractiveSmileDiv .imgSection img{
+    height: 370px;
+    width: 300px;
+    margin-left: 160px;
+}
+
+.anAttractiveSmileDiv .txtSection{
+    width: 55%;
+    height: 300px;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    
+}
+.txtSection .heading
+
+{
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 600;
+}
+.txtSection .txt
+{
+    width: 80%;
+    color: gray;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+}
+
+
+#practiceSecGraph{
+    color: red;
+    
+}
+#practiceSecGraph .meadicalPracticeSecGraph1 .txt
+{
+    /* background-color: blanchedalmond; */
+    margin-left: 9px;
+    padding: 10px;
+}
+
+.sectionPurchaseDiv{
+    height: 400px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://img.freepik.com/free-photo/medical-banner-with-stethoscope_23-2149611199.jpg?size=338&ext=jpg&ga=GA1.1.1700460183.1712620800&semt=sph);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.sectionPurchaseDiv .innerTxt{
+    height: 300px;
+    width: 800px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    /* background-color: blueviolet; */
+    background: transparent;
+    /* border: 2px solid blue; */
+}
+.sectionPurchaseDiv .innerTxt .text{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    color: white;
+}
+.sectionPurchaseDiv .innerTxt .text span{
+    margin: 10px;
+}
+
+#learnMoreBtn{
+    margin-left: 0;
+
+}
+.innerTxt .text .lowerTxt{
+    font-size: 40px;
+    font-weight: 900;
+
+}
+
+.ourSerivice2Div{
+   
+    height: 800px;
+    margin-top: 100px;
+    /* background-color: antiquewhite; */
+   
+
+}
+
+
+.ourServices2DivHeader{
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+
+}
+.ourServices2DivHeader .headerTxt
+{
+    font-size: 40px;
+    margin: 20px;
+    font-weight: 550;
+}
+.ourServices2DivHeader .txt
+{
+    font-size: large;
+}
+.ourServices2DivHeader span{
+    margin: 0;
+    padding: 0;
+}
+
+.ourServices2DivBody {
+    display: flex;
+    align-items: center;
+    /* background-color: aqua; */
+    height: 600px;
+    justify-content: center;
+
+}
+.ourServices2DivBody .priceDiv{
+    height: 500px;
+    width: 400px;
+    margin: 20px;
+    background-color:rgb(244, 242, 242);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.priceDiv .head{
+    background-color:rgba(38, 9, 225, 0.767) ;
+    /* border: 2px solid black; */
+    /* margin-top: 10px; */
+    width: 400px;
+    height: 60px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: larger;
+    font-weight: 600;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+
+.priceDiv .priceMonthly{
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height: 150px;
+    border: 2px solid rgb(232, 228, 228);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+}
+.priceDiv .priceMonthly .price{
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.priceDiv .priceMonthly .month{
+    color: rgba(76, 52, 234, 0.767);
+    font-size: medium;
+    padding: 4px;
+}
+
+.priceDiv .allServices
+{
+    /* background-color: blueviolet; */
+    color: gray;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.priceDiv .allServices p{
+    margin: 8px;
+    padding: 2px;
+}
+.priceDiv .buyThem
+{
+    width: 400px;
+    height: 80px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-size: larger;
+    font-weight: 600;
+    background-color:rgb(225, 222, 222);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+
+    margin-top: 15px;
+    transition: all 0.3s ease-in-out;
+}
+.priceDiv .buyThem:hover{
+    background-color: rgb(41, 219, 219);
+    color: white;
+    cursor: pointer;
+
 }
