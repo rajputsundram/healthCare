@@ -1,0 +1,329 @@
+
+#firstNavbarIdUpdates{
+    height: 40px;
+    
+    
+}
+#firstNavbarIdUpdates .time{
+    border: none;
+}
+#firstNavbarIdUpdates .time-txt
+{
+    display: block;
+    border: none;
+    
+}
+.bodyFirstImgDiv{
+    /* background-color: aqua; */
+    height: 130vh;
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+
+.lowerSectionTxtCards span img{
+height: 60px;
+margin: 10px; 
+display: flex;
+text-align: center;
+justify-content: center;
+align-items: center;
+
+
+}
+
+.bodyFirstImgDiv .upperSectionTxt{
+    /* position: absolute; */
+    /* background-color: blue; */
+    height: 500px;
+    width: 80%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+#upperSectionTxtPurchaseBtn{
+    margin-left: 0;
+}
+
+.bodyFirstImgDiv .upperSectionTxt .upperSectionTxtHeading1{
+    /* color: red; */
+    font-size: 5rem;
+    margin: 0;
+    padding: 0;
+}
+
+.bodyFirstImgDiv .upperSectionTxt .upperSectionTxtHeading2{
+    /* color: red; */
+    font-size: 5rem;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+
+}
+.bodyFirstImgDiv .upperSectionTxt .upperSectionTxtTxt{
+    width: 40%;
+    text-align: center;
+    font-size: larger;
+    /* background-color: blueviolet; */
+    margin: 10px;
+
+}
+.bodyFirstImgDiv .lowerSectionTxt{
+    /* position: absolute; */
+    /* background-color: blueviolet; */
+    display: flex;
+}
+
+.lowerSectionTxt .lowerSectionTxtCards{
+    /* background-color: rgb(255, 0, 136); */
+    height: 250px;
+    width: 350px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* margin: 10px; */
+
+}
+.lowerSectionTxt .lowerSectionTxtCards .heading{
+    font-size: 25px;
+
+
+}
+
+#blueColor{
+    background-color: rgb(38, 4, 141);
+}
+#lightBlueColor
+{
+    background-color: rgb(9, 9, 67);
+}
+
+.aGreatPlaceMediCare{
+    /* background-color: blueviolet; */
+    height: 400px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.aGreatPlaceMediCare .textSection
+{
+    width: 35%;
+    /* background-color: brown; */
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+
+}
+.textSection .textSectionHeading1{
+    /* background-color: antiquewhite; */
+    font-size: 3.5rem;
+    margin-top: 5px;
+    font-weight: 530;
+
+}
+.textSection .textSectionHeading2{
+    /* background-color: antiquewhite; */
+    
+    font-size: 4rem;
+    font-weight: 700;
+
+}
+.textSection .textSectionTxt{
+    color: gray;
+    font-size: larger;
+    margin-top: 20px;
+}
+.aGreatPlaceMediCare .textSection  #PlaceMediCareLearnMoreBtn{
+    margin-left: 0;
+
+}
+.aGreatPlaceimgSection
+{
+    width: 50%;
+    height: 360px;
+    /* background-color: chartreuse; */
+    display: flex;
+    justify-content: center;
+}
+.aGreatPlaceimgSection span img{
+    height: 360px;
+}
+
+
+#anAttractiveSmileDivUpdated{
+
+    height: 651px;
+    /* background-color: brown; */
+}
+
+#imgSectionUpdate{
+
+    margin: 0;
+    display: flex;
+    
+    align-items: center;
+}
+#imgSectionUpdate img{
+    margin: 0;
+    height: 650px;
+    width: 800px;
+}
+
+#txtSectionUpdated{
+    margin-left: 200px;
+    padding: 0;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    /* background-color: aquamarine; */
+/* height: 600px; */
+}
+#txtSectionUpdated .heading{
+    /* color: red; */
+    font-size: 3.5rem;
+    font-weight: 500;
+}
+
+#txtSectionUpdated .heading2{
+    font-size: 3rem;
+    font-weight: 700;
+
+}
+
+
+.bestQualityMedicine{
+    height: 700px;
+    /* background-color: blueviolet; */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    /* align-items: center; */
+    
+
+}
+
+.bestQualityMedicineTextDiv{
+    height: 400px;
+    width: 704px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: chartreuse; */
+    margin-top: 100px;
+    text-align: center;
+
+}
+
+.bestQualityMedicineTextDiv .heading{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.bestQualityMedicineTextDiv .text{
+    width: 500px;
+    display: flex;
+    text-align: center;
+    margin-top: 10px;
+    font-size: larger;
+    color: gray;
+
+}
+
+
+.bestQualityMedicineImgDiv{
+
+ height: 400px;
+ width: 800px;
+    background-color: chocolate;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+.bestQualityMedicineImgDiv img{
+
+    margin: 0;
+    height: 650px;
+    width: 800px;
+    
+}
+
+#bestQualityMedicineBtnId{
+margin-left: 0;
+}
+
+.healthyLifeStyleDiv{
+    height: 560px;
+    /* background-color: blanchedalmond; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.healthyLifeStyleText{
+    /* background-color: aqua; */
+    width: 35%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    /* align-items: center; */
+
+}
+.healthyLifeStyleText  .heading1
+{
+    /* color: red; */
+    font-size: 3rem;
+    font-weight: 550;
+
+}
+.healthyLifeStyleText .heading2
+{
+    font-size: 3.4rem;
+    font-weight: 600;
+}
+
+
+.healthyLifeStyleText .textPara{
+    color: gray;
+    margin-top: 20px;
+    font-size: large;
+
+}
+.healthyLifeStyleText .doctorName
+{
+    font-size: x-large;
+    margin-top: 20px;
+}
+.healthyLifeStyleText .doctorType
+{
+    color: blue;
+    margin-top: 10px;
+}
+
+.healthyLifeStyleImage{
+    /* background-color: blue; */
+    width: 50%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.healthyLifeStyleImage img{
+    height: 500px;
+    margin-left: 60px;
+}

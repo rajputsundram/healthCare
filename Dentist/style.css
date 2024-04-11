@@ -360,3 +360,139 @@ margin-top: 100px;
     cursor: pointer;
 
 }
+
+.dentalPracticeDiv{
+    height: 500px;
+    background-color:rgb(251, 248, 248);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.dentalPracticeDiv .imgSection
+{
+    width: 40%;
+    height: 350px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/dentist12.jpg");
+    
+}
+
+.dentalPracticeDiv .imgSection button{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color:skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+.dentalPracticeDiv .imgSection button i{
+    color: white;
+    font-size: 20px;
+}
+
+.dentalPracticeDiv .textSection{
+    width: 40%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: yellow; */
+    margin-left: 50px;
+
+}
+
+.dentalPracticeDiv .textSection .textSectionHeading1{
+font-size: 40px;
+}
+
+.dentalPracticeDiv .textSection .textSectionHeading2{
+    font-size: 40px;
+    font-weight: 600;
+}
+.dentalPracticeDiv .textSection .textSectionTxt {
+    font-size: larger;
+    margin-top: 10px;
+    color: gray;
+
+}
+
+.dentistPageSpecialityClinic{
+    height: 600px;
+    /* background-color: blueviolet; */
+    display: flex;
+
+
+}
+
+.dentistPageSpecialityClinic .specialityClinicDiv{
+    display: flex;
+    flex-direction:column ;
+    background-image: url(https://penndentalmedicine.org/wp-content/uploads/2016/02/shutterstock_2177446635-scaled-1024x460-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 33%;
+    height: 500px;
+    margin: 20px;
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+
+.dentistPageSpecialityClinic .specialityClinicDiv::after{
+    content: "";
+    background: rgba(12, 2, 50, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.specialityClinicDiv .heading
+{
+    color: azure;
+    z-index: 2;
+    font-size: 27px;
+    font-weight: 600;
+    
+}
+
+.specialityClinicDiv .text
+{
+    z-index: 2;
+    margin-top: 40px;
+    width: 80%;
+    color: white;
+    font-size: large;
+    line-height: 25px;
+    display: flex;
+    text-align-last: center;
+}
+#specialityLearnnMoreBtn{
+   
+    margin-left: 0;
+    z-index: 2;
+}
+#specialityLearnnMoreBtn .learnMoreBtn{
+    background-color: whitesmoke;
+
+}
+#specialityLearnnMoreBtn .learnMoreBtn a{
+    color: black;
+}
+#specialityLearnnMoreBtn span {
+    background-color: rgb(219, 224, 224);
+
+}
+#specialityLearnnMoreBtn  i{
+    color: black;
+    
+
+}
