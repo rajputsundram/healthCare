@@ -68,8 +68,8 @@ color: black;
 
     display: flex;
     align-items: center;
-    justify-content: center;
-    height: 200px;
+    justify-content: end;
+    height: 300px;
     flex-direction: column;
     
 

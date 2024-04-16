@@ -1,0 +1,364 @@
+
+#img-secId{
+    height: 750px;
+    /* background-color: aqua; */
+
+}
+
+.babyCareDiv
+{
+    height: 600px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.babyCareDiv .babyCareDivsImg
+{
+    height: 430px;
+    width: 320px;
+    /* background-color: rgb(255, 0, 72); */
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.babyCareDivsImg .images img{
+    height: 200px;
+    width: 320px;
+
+}
+.babyCareDivsImg .heading{
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 20px 0 18px;
+
+}
+.babyCareDivsImg .text{
+    color: gray;
+}
+#babyCarelearnMoreBtn{
+    margin-left: 0;
+
+}
+.openingHours{
+    background-color: blueviolet;
+    color: white;
+    border-radius: 5px;
+   
+
+}
+.openingHours span{
+    margin-left: 20px;
+}
+.openingHours .heading1{
+    margin-top: 16px;
+    display:inline-flex;
+    justify-content:flex-start ;
+    align-items: flex-start;
+    text-align: start;
+}
+.openingHours .heading2
+{
+    font-size: 1.5rem;
+    display: flex;
+    font-weight: 600;
+    margin-top: 18px;
+
+}
+.openingHours .txt{
+    display: flex;
+
+    flex-direction: row;
+    /* background-color: blue; */
+justify-content: space-between;
+height: 30px;
+align-items: center;
+border: 2px solid gray;
+border-top: none;
+border-left:none;
+border-right: none;
+width: 250px;
+}
+
+.methodInHealingDiv{
+    height: 800px;
+    
+    background-color: rgb(246, 245, 248);
+
+}
+
+.methodInHealingDivHeaderDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+text-align: center;
+align-items: center;
+height: 240px;
+/* background-color: antiquewhite; */
+}
+.methodInHealingDivHeaderDiv .heading{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.methodInHealingDivHeaderDiv .txt{
+    /* width: 47%; */
+font-size: larger;
+margin: 10px;
+}
+
+.methodInHealingDivImgAndtxtSection{
+    display: flex;
+    /* background-color: brown; */
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.methodInHealingDivImgAndtxtSection .textSection{
+    width: 50%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.methodInHealingDivImgAndtxtSection .firstIconDiv{
+    display: flex;
+ margin: 20px;
+ width: 500px;
+
+    /* background-color: rgb(165, 42, 136); */
+
+
+    
+}
+
+
+.firstIconDiv .firstIconDivtextSec
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    
+    /* background-color: brown; */
+}
+.firstIconDiv .icons{
+    margin: 0;
+    padding: 0;
+
+}
+.firstIconDiv .icons img{
+
+height: 80px;
+margin: 0;
+padding: 0;
+/* background-color: aqua; */
+}
+
+.firstIconDivtextSec .firstIconDivHeading1{
+color: blue;
+}
+.firstIconDivtextSec .firstIconDivHeading2{
+font-size: x-large;
+font-weight: 600;
+margin-top: 5px;
+}
+.firstIconDivtextSec .firstIconDivTxt{
+    margin-top: 15px;
+    color: gray;
+
+}
+
+.methodInHealingDivImgAndtxtSection .imageSection {
+
+    /* background-color: aqua; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin: 0;
+    
+    width: 50%;
+    
+
+}
+
+.methodInHealingDivImgAndtxtSection .imageSection img{
+    height: 500px;
+
+
+} 
+.onlyBacgroundImgSection{
+    height: 400px;
+display: flex;
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+
+}
+.onlyBacgroundImgSection span img{
+    height: 140px;
+    margin-right: 15px;
+}
+.onlyBacgroundImgSection .txt{
+    font-size: 2.6rem;
+    color: white;
+    width: 800px;
+    font-weight: 500;
+
+}
+
+.aboutSectionDiv{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.aboutSectionDiv .aboutSectionDivImg{
+    height: 300px;
+    width: 50%;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: end;
+    margin-right: 40px;
+    align-items: center;
+}
+.aboutSectionDiv .aboutSectionDivImg img{
+    height: 290px;
+    width:480px ;
+}
+
+.aboutSectionDivText {
+    height: 300px;
+    width: 50%;
+    /* background-color: aqua; */
+
+
+}
+.aboutSectionDivText .headingNav{
+    height: 55px;
+    width: 75%;
+    display: flex;
+
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 5px;
+    background-color: rgb(247, 242, 242);
+
+}
+.aboutSectionDivText .headingNav ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    /* background-color: blue; */
+
+}
+.aboutSectionDivText .headingNav ul li{
+    height: 55px;
+   /* background-color: blue; */
+    width: 100px;
+    margin: 1px;
+    
+    background-color: rgb(247, 242, 242);
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.aboutSectionDivLowertxt{
+    display: flex;
+    
+    margin-top: 5px;
+    /* border: 2px solid red; */
+    height: 250px;
+    width: 72%;
+justify-content: center;
+align-items: center;
+    font-size: large;
+    color: gray;
+    padding-inline: 12px;
+    border-radius: 5px;
+    line-height: 25px;
+    background-color: rgb(247, 242, 242);
+
+}
+
+.ourMethodSecDiv{
+    height: 700px;
+    background-color:rgb(251, 248, 248);
+
+
+}
+
+.ourMethodSecDivHeading{
+    height: 250px;
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.ourMethodSecDivHeading .heading
+{
+/* color: blue; */
+font-size: 3rem;
+font-weight: 600;
+}
+.ourMethodSecDivHeading .text{
+    color: gray;
+    width: 700px;
+    line-height: 0.8cm;
+    font-size: large;
+    margin-top: 10px;
+}
+
+.ourMethodSecIcons {
+    height: 500px;
+/* background-color: bisque; */
+width: 100%;
+display: flex;
+justify-content: center;
+
+}
+
+.ourMethodSecIcons .icon1{
+    height: 400px;
+    width: 250px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+
+}
+.ourMethodSecIcons .icon1 .img{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: brown; */
+    border: 2px solid gray;
+}
+.ourMethodSecIcons .icon1 .heading{
+    font-size: x-large;
+    font-weight: 600;
+    padding: 0;
+    margin-top: 35px;
+}
+.ourMethodSecIcons .icon1 .txt{
+    margin:0;
+    padding: 0;
+    color: gray;
+    margin-top: 20px;
+}

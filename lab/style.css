@@ -1,0 +1,133 @@
+.labBodyImageIcons{
+    height: 120px;
+   
+    display: flex;
+    justify-content: center;
+    /* margin-top: px; */
+
+}
+
+.labBodyImageIconsDiv1{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: brown; */
+    width: 400px;
+
+
+}
+.labBodyImageIconsDiv1 .Icons{
+    margin: 0;
+}
+.labBodyImageIconsDiv1 .Icons img
+{
+    height: 55px;
+}
+.labBodyImageIconsDiv1 .txt{
+    color: black;
+    border: 2px solid rgb(223, 221, 221);
+    border-top: none;
+    border-bottom: none;
+    border-left:none ;
+    
+    margin: 0;
+}
+
+.ourNewLabSection{
+    background-color:rgb(247, 245, 245);
+}
+.ourNewLabSection .dentalPracticeDiv{
+    background-color:rgb(247, 245, 245);
+
+}
+.ourNewLabSection .ourNewLabSectionHeadingDiv{
+    height: 200px;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    text-align: center;
+
+
+}
+.ourNewLabSection .ourNewLabSectionHeadingDiv .heading{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.ourNewLabSection .ourNewLabSectionHeadingDiv .txt{
+    width: 55%;
+    font-size: larger;
+}
+
+.healingAndHealthSecDiv{
+    display: flex;
+    /* height: 700px; */
+    background-color: blueviolet;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.healingAndHealthSecDiv .healingDiv
+
+{
+    background-color: rgb(41, 249, 249);
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.healingAndHealthSecDiv .healingDiv .heading{
+font-size: x-large;
+font-weight: 600;
+}
+.healingAndHealthSecDiv .healingDiv .txt{
+    width: 60%;
+    font-size: large;
+    text-align: center;
+}
+.healingAndHealthSecDiv .healthDiv
+{
+    background-color: rgb(103, 103, 228);
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+}
+.healingAndHealthSecDiv .healthDiv .heading{
+    font-size: x-large;
+    font-weight: 600;
+}
+.healingAndHealthSecDiv .healthDiv .txt{
+ width: 60%;
+ font-size: large;
+ text-align: center;
+}
+#ourMethodSecDivUpdates{
+    align-items: center;
+
+    display: flex;
+    justify-content: center;
+    
+    
+
+}
+#ourMethodSecDivUpdates .ourMethodSecIcons
+{
+    
+    align-items: center;
+    
+    display: flex;
+    justify-content: center;
+    
+
+}

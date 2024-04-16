@@ -1,0 +1,279 @@
+
+
+.methodOfHealingDiv{
+    /* height: 450px; */
+    
+
+
+}
+.methodOfHealingDiv .headingSec{
+    height: 200px;
+    display: flex;
+flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    text-align: center;
+    /* background-color: aqua; */
+
+}
+.methodOfHealingDiv .headingSec  .heading
+{
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.methodOfHealingDiv .headingSec  .txt{
+    width: 50%;
+    font-size: large;
+
+}
+
+.methodOfHealingDiv .imgAndTxtDiv
+{
+    /* background-color: rgb(255, 132, 0); */
+
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.methodOfHealingDiv .imgdiv
+{
+    width: 50%;
+    
+    height: 340px;
+    
+   /* background-color: aqua; */
+    display: flex;
+    
+    justify-content: end;
+    align-items: center;
+    padding: 0;
+    
+    
+}
+.methodOfHealingDiv .imgdiv img{
+    
+    /* width: %; */
+    
+    height: 340px;
+}
+.methodOfHealingDiv .textDiv
+{
+   
+    width: 50%;
+    
+    
+    height: 340px;
+    /* border: 2px solid rgb(213, 207, 207); */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* background-color: aqua; */
+    
+    
+}
+.methodOfHealingDiv .headingText{
+    width: 70%;
+    height: 340px;
+    
+    padding: 10px;
+    border: 2px solid rgb(213, 207, 207);
+    background-color: rgb(250, 245, 249);
+    border-left: none;
+   
+    display: flex;
+    flex-direction: column;
+    /* background-color: brown; */
+}
+.methodOfHealingDiv .textDiv #learnMoreBtnDivResize
+{
+margin-left: 20px;
+padding: 0;
+text-align: start;
+margin-top: 50px;
+}
+.methodOfHealingDiv .textDiv .heading{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-left: 20px;
+    
+}
+.methodOfHealingDiv .textDiv .text{
+    font-size: large;
+    color: gray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+
+
+.yearGraph{
+    height: 100px;
+
+}
+
+.yearGraphSecDiv{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 200px;
+    /* background-color: blue; */
+    align-items: center;
+}
+
+.yearGraphSecDiv .year{
+    height: 40px;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* background-color: red; */
+  
+}
+.yearGraphSecDiv .year span
+{
+    /* background-color: aqua; */
+    height: 30px;
+    width: 145px;
+    /* margin: 2px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    margin-left: 22px;
+    padding: 5px;
+    font-weight:bolder;
+    font-size: larger;
+    
+     
+
+
+}
+
+.yearGraphSecDiv .lineAndCircle
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.yearGraphSecDiv .line{
+    width: 150px;
+    height: 5px;
+    background-color: rgb(212, 208, 208);
+    
+    
+    
+
+
+}
+.yearGraphSecDiv .circle{
+    height: 15px;
+    width: 15px;
+    /* background-color: aqua; */
+    border-radius: 50%;
+    border: 7px solid rgb(173, 171, 171);
+}
+
+#ourNewsSecDivId{
+    height: 400px;
+
+}
+
+#imgSectionId{
+    background: url("../images/eye6.jpg");
+background-size: cover;
+}
+
+.weAreHereForYouDiv{
+    height: 1000px;
+    background-color: rgb(232, 228, 228);
+
+}
+
+
+.weAreHereForYouDiv .weAreHereForYouHeading
+{
+    height: 200px; 
+    /* background-color: rgb(36, 152, 152); */
+    display: flex;
+    flex-direction: column;
+    justify-content:end;
+    align-items: center;
+    text-align: center;
+}
+
+.weAreHereForYouHeading .heading{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.weAreHereForYouHeading .text{
+    width: 60%;
+    font-size: larger;
+    margin-top: 20px;
+}
+.weAreHereForYouRandomDoctors{
+    height: 800px;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weAreHereForYouRandomDoctors .doctorsDiv
+{
+    height: 480px;
+    background-color: white;
+     border: 2px solid rgb(230, 227, 234);
+    margin: 20px;
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+.doctorsDiv .images {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid red;
+    background-color: rgb(255, 0, 144);
+    margin-top: 50px;
+}
+.doctorsDiv .text
+{
+    font-size: larger;
+   width: 250px;
+
+    margin-top: 30px;
+}
+.doctorsDiv .doctorName{
+
+    font-size: x-large;
+    font-weight: 600;
+    margin-top: 40px;
+   
+
+    height: 60px;
+    width: 300px;
+    border: 1px solid rgb(223, 219, 219);
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    
+    border-bottom:none ;
+    border-left:none ;
+    border-right:none ;
+
+}
+
+.doctorsDiv .doctorsType
+{
+    color: blue;
+    margin: 10px;
+}

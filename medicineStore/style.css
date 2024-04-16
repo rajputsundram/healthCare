@@ -13,6 +13,13 @@
     border: none;
     
 }
+
+#secondNavbarId{
+height: 90px;
+/* background-color: aqua; */
+box-shadow: 0   1.2px 0 0 rgb(207, 205, 205);
+
+}
 .bodyFirstImgDiv{
     /* background-color: aqua; */
     height: 130vh;
@@ -160,7 +167,10 @@ justify-content: center;
     height: 360px;
 }
 
-
+#typesOfClinicbackgroundColor
+{
+    background-color: rgb(245, 239, 239);
+}
 #anAttractiveSmileDivUpdated{
 
     height: 651px;
@@ -331,7 +341,7 @@ margin-left: 0;
 
 .medicalResearchDiv{
     height: 800px;
-    /* background-color: aqua; */
+    background-color: rgb(245, 239, 239);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -358,9 +368,18 @@ margin-left: 0;
     margin-top: 6px;
 }
 .medicalResearchDivAllDiv .text
+
 {
+    border: 3px solid rgb(234, 228, 228);
+    box-shadow: 2px gray;
     font-size: large;
+    height: 50px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
     margin-top: 4px;
+    color: gray;
 }
 .medicalResearchDivAllDiv .learnMoreAndIcons
 {
