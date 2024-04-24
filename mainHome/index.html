@@ -12,7 +12,7 @@
     <header>
         <!-- ---------------------------section-1--------------------- -->
         <div class="navBar">
-            <div class="firstNavbar">
+            <div class="firstNavbar" id="firstNavBarForJs">
                 <div class="logo">
                     <span class="logo-txt">
                         <h1>MediClinic</h1>
@@ -25,7 +25,7 @@
                         </div>
                         <div class="txt">
                             <span>+(91) 8684961184</span>
-                            <span>+(91) 8684961183</span>
+                            <span class="color-gray">+(91) 8684961183</span>
                         </div>
                     </div>
 
@@ -33,7 +33,7 @@
                         <div class="Icons"><i class="fa-solid fa-clock"></i></div>
                         <div class="time-txt">
                             <span>Mon-fri:9.00AM - 5:00PM</span>
-                            <span>Sat - Sun:Closed</span>
+                            <span class="color-gray">Sat - Sun:Closed</span>
                         </div>
                     </div>
 
@@ -42,7 +42,7 @@
                         <div>
                             <div class="email-txt">
                                 <span>mediclicnk@gmail.com</span>
-                                <span>mediclicnk@gmail.com</span>
+                                <span class="color-gray">mediclicnk@gmail.com</span>
                             </div>
                         </div>
 
@@ -53,11 +53,11 @@
             <div class="secondNavbar">
                 <div class="navlinks">
                     <ul>
-                        <li><a href="">Home</a></li>
-                        <li><a href="">Pages</a></li>
-                        <li><a href="">Doctors</a></li>
-                        <li><a href="">Departments</a></li>
-                        <li><a href="">Blog</a></li>
+                        <li id="navLinksWrapperHome"><a href="#">Home</a></li>
+                        <li id="navLinksWrapperPages"><a href="">Pages</a></li>
+                        <li id="navLinksWrapperDoctors"><a href="">Doctors</a></li>
+                        <li id="navLinksWrapperDepart"><a href="">Departments</a></li>
+                        <li id="navLinksWrapperBlog"><a href="">Blog</a></li>
                         <li><a href="">Shop</a></li>
                         <li><a href="">Elements</a></li>
                     </ul>
@@ -68,7 +68,61 @@
                     <span><i class="fa-solid fa-bars"></i></span>
                 </div>
             </div>
+            <div id="dropDownMenu">
+                <ul>
+                <li><a href="#"><span class="plusIcon"><i class="fa-solid fa-plus"></i></span><span class="addHoverEffect">Main Home</span></a></li>
+                <li><a href="../childrenHealthCenter/index.html"><span class="plusIcon"><i class="fa-solid fa-plus"></i></span><span class="addHoverEffect">Children's Health Center</span></a></li>
+                <li><a href="../HospitalHome/index.html"><span class="plusIcon"><i class="fa-solid fa-plus"></i></span><span class="addHoverEffect">Hospital Home</span></a></li>
+                <li><a href="../Dentist/index.html"><span class="plusIcon"><i class="fa-solid fa-plus"></i></span> <span class="addHoverEffect">Dentist Home</span></a></li>
+                <li><a href="../Clinic/"><span class="plusIcon"><i class="fa-solid fa-plus"></i></span><span class="addHoverEffect">Clinic Home</span> </a></li>
+                <li><a href="../pediatrician/index.html"><span class="plusIcon"><i class="fa-solid fa-plus"></i></span>Pediatrician Home</a></li>
+                <li><a href="../lab/index.html"><span class="plusIcon"><i class="fa-solid fa-plus"></i></span><span class="addHoverEffect">Medical Laboratory</span></a></li>
+                <li><a href="../opthaMalogist/index.html"><span class="plusIcon"><i class="fa-solid fa-plus"></i></span><span class="addHoverEffect">Opthalmologist Home</span></a></li>
+                <li><a href="../pharmacy/index.html"><span class="plusIcon"><i class="fa-solid fa-plus"></i></span> <span class="addHoverEffect">Pharmacy Home</span></a></li>
+                <li><a href="../medicineStore/index.html"><span class="plusIcon"><i class="fa-solid fa-plus"></i></span><span class="addHoverEffect">Medicine Home</span></a></li>
+                <li><a href=""><span class="plusIcon"><i class="fa-solid fa-plus"></i></span><span class="addHoverEffect">Geriatrician Home</span></a></li>
+                <li><a href=""><span class="plusIcon"><i class="fa-solid fa-plus"></i></span> <span class="addHoverEffect">Health Center Home</span></a></li>
+                <li><a href=""><span class="plusIcon"><i class="fa-solid fa-plus"></i></span> <span class="addHoverEffect">Landing</span></a></li>
+                
+                </ul>
+                
+            </div>
+            <div id="dropDownMenu2">
+                <ul>
+                <li><a href=""><span class="plusIcon"><i class="fa-solid fa-plus"></i></span><span class="addHoverEffect">About Us </span></a></li>
+                <li><a href=""><span class="plusIcon"><i class="fa-solid fa-plus"></i></span> <span class="addHoverEffect">Who We Are</span></a></li>
+                <li><a href=""><span class="plusIcon"><i class="fa-solid fa-plus"></i></span> <span class="addHoverEffect">Our Clinic</span></a></li>
+                <li><a href=""><span class="plusIcon"><i class="fa-solid fa-plus"></i></span>  <span class="addHoverEffect">Our Services</span></a></li>
+                <li><a href=""><span class="plusIcon"><i class="fa-solid fa-plus"></i></span><span class="addHoverEffect">Contact us</span></a></li>
+                <li><a href=""><span class="plusIcon"><i class="fa-solid fa-plus"></i></span> <span class="addHoverEffect">Process</span></a></li>
+                <li><a href=""><span class="plusIcon"><i class="fa-solid fa-plus"></i></span> <span class="addHoverEffect">Special Offers</span></a></li>
+                <li><a href=""><span class="plusIcon"><i class="fa-solid fa-plus"></i></span> <span class="addHoverEffect"> Our Clinic</span></a></li>
+                <li><a href=""><span class="plusIcon"><i class="fa-solid fa-plus"></i></span> <span class="addHoverEffect">Working Hours</span></a></li>
+                <li><a href=""><span class="plusIcon"><i class="fa-solid fa-plus"></i></span> <span class="addHoverEffect">Additional Pages</span></a></li>
+                
+                </ul>
+                
+            </div>
+            <div id="dropDownMenu3">
+                <ul>
+                <li><a href=""><span class="plusIcon"><i class="fa-solid fa-plus"></i></span><span class="addHoverEffect">Our Doctor</span> </a></li>
+                <li><a href=""><span class="plusIcon"> <i class="fa-solid fa-plus"></i></span> <span class="addHoverEffect">Doctor Showcase</span></a></li>
+                
+                
+                </ul>
+                
+            </div>
+            <div id="dropDownMenu4">
+                <ul>
+                <li><a href=""><span class="plusIcon"><i class="fa-solid fa-plus"></i></span>Timetable </a></li>
+                <li><a href=""><span class="plusIcon"><i class="fa-solid fa-plus"></i></span>Department Single</a></li>
+                
+                
+                </ul>
+                
+            </div>
         </div>
+     
     </header>
 
     <main>
@@ -78,7 +132,7 @@
                 <div class="img-sec">
                     <div class="allImg">
                         <div class="slide"><img src="https://cdn.create.vista.com/api/media/medium/83196752/stock-photo-confident-doctor-at-hospital-posing?token=" alt="">
-                        <h2>hello</h2></div>
+                        </div>
                         <div class="slide"><img src="https://cdn.create.vista.com/api/media/small/304753540/stock-photo-doctor-with-medical-healthcare-graphic-in-hospital" alt=""></div>
                         <div class="slide"><img src="https://cdn.create.vista.com/api/media/small/254700938/stock-photo-doctor-with-medical-healthcare-graphic-in-hospital" alt=""></div>
                         <div class="slide"><img src="https://cdn.create.vista.com/api/media/small/201294084/stock-photo-top-view-stethoscope-surrounded-different-medicines-blue-surface" alt=""></div>
@@ -178,12 +232,21 @@
         <section class="bestLabs">
             <div class="bestLabsDiv">
                 <div class="firstSection">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNphlMbIpmjTZBxhQCMj0SKYmI9UfuF8MOBnbqN-arOg&s"
-                        alt="">
+                    <div class="imagesecDiv">
+
+                  <img src="https://ehealth.eletsonline.com/wp-content/uploads/2022/01/Diagnostic.jpeg" alt="" srcset="" class="slider_img">
+                 
                 </div>
+                </div>
+
+                <div class="additionalDiv">
+
+                </div>
+               
                 <div class="secondSection">
                     <div class="headerTxt">
                         <span>Best Laboratory </span>
+                       
                         <br>
                         <span>Test Available</span>
                     </div>
@@ -424,8 +487,13 @@
 
                 <div class="allDoctors">
                     <div class="doctor1">
+                       
                         <div class="img">
+                            <div class="imgCover">
+                                <span><i class="fa-solid fa-heart-circle-bolt"></i></span>
+                            </div>
                             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5E9I2vYC2wGQLuwbEBd0XQT0l9GgLiVXBWp9EohASMQ&s" alt="">
+                       
                         </div>
                         <div class="doctor1Txt">
                             <span class="doctorName">Dr. Gupta
@@ -444,7 +512,11 @@
                     </div>
 
                     <div class="doctor1">
+                        
                         <div class="img">
+                            <div class="imgCover">
+                                <span><img src="../images/pulse.png" alt=""></span>
+                            </div>
                             <img src="https://media.istockphoto.com/id/1468678629/photo/portrait-healthcare-and-tablet-with-a-doctor-woman-at-work-in-a-hospital-for-research-or.webp?b=1&s=170667a&w=0&k=20&c=H9w4bMoP3WXY178SVYmZsZsSCaTJoVLRMnSLPd3L3OE=" alt="">
                         </div>
                         <div class="doctor1Txt">
@@ -465,6 +537,9 @@
                     </div>
                     <div class="doctor1">
                         <div class="img">
+                            <div class="imgCover">
+                                <span><img src="../images/uterus.png" alt=""></span>
+                            </div>
                             <img src="https://t4.ftcdn.net/jpg/03/05/41/27/360_F_305412791_XRNiWaFCREjLLpSQfj0e736foBoYXXYv.jpg" alt="">
                         </div>
                         <div class="doctor1Txt">
@@ -485,6 +560,9 @@
                     </div>
                     <div class="doctor1">
                         <div class="img">
+                            <div class="imgCover">
+                                <span><img src="../images/scissors.png" alt=""></span>
+                            </div>
                             <img src="https://media.istockphoto.com/id/1372002650/photo/cropped-portrait-of-an-attractive-young-female-doctor-standing-with-her-arms-folded-in-the.jpg?s=612x612&w=0&k=20&c=o1QtStNsowOU0HSof6xQ_jZMglU8ZK565gHd655U6S4=" alt="">
                         </div>
                         <div class="doctor1Txt">

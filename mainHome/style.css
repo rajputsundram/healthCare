@@ -43,15 +43,22 @@ body{
     /* background-color: bisque; */
     margin-left: 30%;
     height: 100px;
-
-
-
 }
 
+.plusIcon 
+{
+    font-weight: 900;
+    color: aqua;
+    padding: 8px;
+    
+    
+}
+.addHoverEffect:hover + .plusIcon{
 
+color: red;
 
-
-.phoneNo {
+}
+.phoneNo{
     
     border-bottom: none;
     margin: 30px;
@@ -61,6 +68,7 @@ body{
     justify-content: center;
     align-items: center;
 }
+
 
 .txt {
     
@@ -99,6 +107,7 @@ body{
 
     justify-content: center;
     align-items: center;
+    
 
 }
 
@@ -110,10 +119,17 @@ body{
 
 }
 
+.color-gray{
+    color: rgb(186, 184, 184);
+    margin-top: 2px;
+}
+
+
 .Icons
 {
     font-size: 25px;
     padding: 10px;
+    color:rgb(102, 109, 231);
 }
 
 
@@ -156,14 +172,131 @@ body{
     font-size: 25px;
     margin: 12px;
 }
+#dropDownMenu{
+    position: absolute;
+    height: auto;
+    background-color: white;
+    width: 300px;
+    border-top: 1.5px solid aqua;
+    display: none;
+    transition: 0.6s;
+    
+}
 
+
+#dropDownMenu ul{
+    margin-left: 20px;
+    color: black;
+
+}
+#dropDownMenu ul li{
+    margin: 20px;
+    list-style: none;
+
+}
+#dropDownMenu ul li a{
+    text-decoration: none;
+ 
+
+}
+
+#dropDownMenu2{
+    position: absolute;
+    height: auto;
+    background-color: white;
+    width: 300px;
+    border-top: 1.5px solid aqua;
+    margin-left: 100px;
+    display: none;
+    
+    
+
+}
+#dropDownMenu2 ul{
+    margin-left: 20px;
+    color: black;
+
+}
+#dropDownMenu2 ul li{
+    margin: 20px;
+    list-style: none;
+
+}
+#dropDownMenu2 ul li a{
+    text-decoration: none;
+ 
+
+}
+
+#dropDownMenu3{
+    position: absolute;
+    height: auto;
+    background-color: white;
+    width: 300px;
+    border-top: 1.5px solid aqua;
+    margin-left: 200px;
+    display: none;
+
+}
+#dropDownMenu3 ul{
+    margin-left: 20px;
+    color: black;
+
+}
+#dropDownMenu3 ul li{
+    margin: 20px;
+    list-style: none;
+
+}
+#dropDownMenu3 ul li a{
+    text-decoration: none;
+ 
+
+}
+#dropDownMenu4{
+    position: absolute;
+    height: auto;
+    background-color: white;
+    width: 300px;
+    border-top: 1.5px solid aqua;
+    margin-left: 300px;
+    display: none;
+
+}
+#dropDownMenu4 ul{
+    margin-left: 20px;
+    color: black;
+
+}
+#dropDownMenu4 ul li{
+    margin: 20px;
+    list-style: none;
+
+}
+#dropDownMenu4 ul li a{
+    text-decoration: none;
+ 
+}
+
+
+
+/* .dropDownMenu::after {
+    content: "";
+    background: rgba(51, 16, 155, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+} */
 
 /* --------------------------------------------------main section----------------------------------------------------- */
 
 
 .img-sec {
     height: 80vh;
-    
+    background-attachment: fixed;
     
 
 }
@@ -176,6 +309,7 @@ body{
     margin: auto;
     overflow: hidden;
     z-index: -1;
+  
     
 
 }
@@ -193,6 +327,7 @@ body{
     transition: 1s;
 
 }
+
 
 .emergency-time-opening{
     z-index: 25;
@@ -455,28 +590,51 @@ color: white;
 .bestLabsDiv{
     margin-top: 63px;
     /* border: 2px solid red; */
-    height: 450px;
+    height: 500px;
     display: flex;
+    background-color: aqua; 
 
 
 }
 .bestLabsDiv .firstSection{
-    /* border: 2px solid red; */
-    height: 450px; ;
-    width: 58vw;
-    margin: 0;
-  
-    
+    height: 500px;
+    width: 60%;
+    /* background-color: red; */
+    text-align: center;
+    position: relative;
+    margin: auto;
+    overflow: hidden; 
 
 }
+
+.bestLabsDiv .firstSection .imagesecDiv{
+    /* background-color: azure; */
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    /* transition: 1s; */
+
+}
+.bestLabsDiv .firstSection .imagesecDiv img{
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+
+}
+
+
+
+
+
 .bestLabsDiv .secondSection{
     display: inline-flex;
     flex-direction: column;
     /* justify-content: center; */
     /* align-items: center; */
-     
+     width: 65%;
      color:whitesmoke;
-     background-color: rgb(30, 181, 181);
+     /* background-color: rgb(30, 181, 181); */
+   
 }
 
 .bestLabsDiv .secondSection .headerTxt
@@ -572,9 +730,13 @@ color: gray;
 .upperSecDiv .img img
 {
     height: 100px;
+    transition: transform .4s cubic-bezier(.38,3,.57,1.6);
     
 }
+.upperSecDiv .img img:hover{
+    transform :translateY(-7px);
 
+}
 .upperSecDiv .upperSecTxt{
     /* background-color: rgb(98, 0, 255); */
     width: 250px;
@@ -618,7 +780,11 @@ color: gray;
 .lowerSecDiv .img img
 {
     height: 80px;
+    transition: transform .4s cubic-bezier(.38,3,.57,1.6);
     
+}
+.lowerSecDiv .img img:hover{
+    transform :translateY(-7px);
 }
 
 .lowerSecDiv .lowerSecTxt{
@@ -698,18 +864,18 @@ color: gray;
     height: 100%;
     width: 100%;
     background-size: cover;
-    transition: all .5s ease-in;
+    transition: all .2s ease-in;
 }
 
 .parent:hover .child{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 
 .aboutSecDiv{
     height: 400px;
     background-color:rgb(75, 75, 220);
-    backdrop-filter: transparent;
+    /* backdrop-filter: transparent; */
 
 }
 
@@ -722,7 +888,8 @@ color: gray;
     background-repeat: no-repeat;
     
     background-size:cover;
-
+background-attachment: fixed;
+overflow: hidden;
     
 }
 
@@ -901,6 +1068,43 @@ color: gray;
     align-items: center; 
 }
 
+.allDoctors .doctor1 .imgCover{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom:100px;
+    margin-left: 180px;
+ 
+    border-radius: 50%;
+    background-color: aqua;
+    transition: 0.1s;
+
+}
+.allDoctors .doctor1 .imgCover span img{
+    height: 50px;
+    width: fit-content;
+    object-fit: cover;
+
+}
+.doctor1 .imgCover:hover{
+    height: 200px;
+    width: 200px;
+    
+    margin-bottom:0;
+    margin-left:0;
+    overflow: hidden;
+    background-size: cover;
+    
+    
+}
+.doctor1 .imgCover span i{
+    font-size: larger;
+}
+
 .allDoctors .doctor1 .img img{
     height: 200px;
     width: 200px;
@@ -908,7 +1112,9 @@ color: gray;
     border-radius: 50%;
     margin-top: 10px; 
     object-fit: cover;
+    
 }
+
 .allDoctors .doctor1 .doctor1Txt
 {
     align-items: center;
