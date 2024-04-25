@@ -14,11 +14,19 @@
     
 }
 
-#secondNavbarId{
+#secondNavbarId {
 height: 90px;
 /* background-color: aqua; */
 box-shadow: 0   1.2px 0 0 rgb(207, 205, 205);
 
+}
+.allDropDownMenu{
+    margin-left: 37%;
+
+}
+#secondNavbarId .navlinks{
+    /* background-color: brown; */
+    margin-left:40%;
 }
 .bodyFirstImgDiv{
     /* background-color: aqua; */

@@ -43,6 +43,7 @@ setInterval(goNext, 5000)
 
 
 
+
 const home = document.getElementById("navLinksWrapperHome");
 const dropeDown = document.getElementById("dropDownMenu");
 dropeDown.addEventListener("mouseleave", () => {
@@ -75,7 +76,7 @@ dropeDown4.addEventListener("mouseleave", () => {
 })
 
 const blogs = document.getElementById("navLinksWrapperBlog");
-const dropeDown5 = document.getElementById("dropDownMenu4");
+const dropeDown5 = document.getElementById("dropDownMenu5");
 
 home.addEventListener("mouseenter", () => {
 
@@ -134,6 +135,7 @@ secondNav.addEventListener("mouseenter", () => {
     dropeDown5.style.display = "none";
 
 })
+
 
 const slide2=document.querySelectorAll(".firstSectionImage1");
 

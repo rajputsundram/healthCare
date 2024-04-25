@@ -9,6 +9,7 @@ body{
     /* height: 7000px; */
     margin: 0;
     padding: 0;
+    background-color: white;
     
 }
 /*------------------------------------------------------------ Header section----------------------------------------- */
@@ -26,7 +27,7 @@ body{
 
 
 .firstNavbar {
-    /* background-color: red; */
+    
     box-shadow: 0 0 0 1.2px rgb(207, 205, 205);
     align-items: center;
     display: flex;

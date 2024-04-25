@@ -14,9 +14,9 @@
     <header>
         <!-- ---------------------------section-1--------------------- -->
         <div class="navBar">
-            <div class="firstNavbar" id="firstNavbarIdUpdates">
+            <div class="firstNavbar" id="firstNavbarIdUpdates" >
                
-                <div class="navbarTxtArea">
+                <div class="navbarTxtArea" id="firstNavBarForJs"> 
 
                     <div class="phoneNo">
                         <div class="Icons"><i class="fa-solid fa-phone"></i>
@@ -49,18 +49,13 @@
                 </div>
             </div>
             <div class="secondNavbar" id="secondNavbarId">
-                <div class="logo">
-                    <span class="logo-txt">
-                        <h1>MediClinic</h1>
-                    </span>
-                </div>
                 <div class="navlinks">
                     <ul>
-                        <li><a href="">Home</a></li>
-                        <li><a href="">Pages</a></li>
-                        <li><a href="">Doctors</a></li>
-                        <li><a href="">Departments</a></li>
-                        <li><a href="">Blog</a></li>
+                        <li id="navLinksWrapperHome"><a href="#">Home</a></li>
+                        <li id="navLinksWrapperPages"><a href="">Pages</a></li>
+                        <li id="navLinksWrapperDoctors"><a href="">Doctors</a></li>
+                        <li id="navLinksWrapperDepart"><a href="">Departments</a></li>
+                        <li id="navLinksWrapperBlog"><a href="">Blog</a></li>
                         <li><a href="">Shop</a></li>
                         <li><a href="">Elements</a></li>
                     </ul>
@@ -71,10 +66,11 @@
                     <span><i class="fa-solid fa-bars"></i></span>
                 </div>
             </div>
+            <div class="allDropDownMenu">
 
             <div id="dropDownMenu">
                 <ul>
-                <li><a href="#"><span class="plusIcon"><i class="fa-solid fa-plus"></i></span><span class="addHoverEffect">Main Home</span></a></li>
+                <li><a href="../mainHome/index.html"><span class="plusIcon"><i class="fa-solid fa-plus"></i></span><span class="addHoverEffect">Main Home</span></a></li>
                 <li><a href="../childrenHealthCenter/index.html"><span class="plusIcon"><i class="fa-solid fa-plus"></i></span><span class="addHoverEffect">Children's Health Center</span></a></li>
                 <li><a href="../HospitalHome/index.html"><span class="plusIcon"><i class="fa-solid fa-plus"></i></span><span class="addHoverEffect">Hospital Home</span></a></li>
                 <li><a href="../Dentist/index.html"><span class="plusIcon"><i class="fa-solid fa-plus"></i></span> <span class="addHoverEffect">Dentist Home</span></a></li>
@@ -125,6 +121,7 @@
                 </ul>
                 
             </div>
+        </div>
         </div>
     </header>
 
@@ -455,6 +452,7 @@ follow us on Twitter: @abcdefghijklm.com
 
     <script src="https://kit.fontawesome.com/ebb51b43ba.js" crossorigin="anonymous"></script>
 <script src="scrip.js"></script>
+<script src="../mainHome/script.js"></script>
 
 </body>
 </html>
